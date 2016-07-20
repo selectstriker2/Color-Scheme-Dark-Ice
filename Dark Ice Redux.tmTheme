@@ -22,7 +22,7 @@ Copyright (c) 2016 by Ken Young
                 <key>caret</key>
                 <string>#F3F6FF</string>
                 <key>foreground</key>
-                <string>#FFFFFF</string>
+                <string>#EFEFEF</string>
                 <key>invisibles</key>
                 <string>#3b3a31</string>
                 <key>lineHighlight</key>
@@ -249,7 +249,7 @@ Copyright (c) 2016 by Ken Young
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#A6FF62</string>
+                <string>#608DFF</string>
             </dict>
         </dict>
         <dict>
@@ -514,11 +514,13 @@ Copyright (c) 2016 by Ken Young
             <key>name</key>
             <string>Markdown Titles</string>
             <key>scope</key>
-            <string>entity.name.section.markdown</string>
+            <string>entity.name.section.markdown, markup.heading.markdown</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1EFF7C</string>
+                <string>#198CFF</string>
+                <key>background</key>
+                <string>#222</string>
             </dict>
         </dict>
         <dict>
@@ -529,7 +531,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#00EA61</string>
+                <string>#47A6FF</string>
             </dict>
         </dict>
         <dict>
@@ -540,7 +542,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#4BBFAA</string>
+                <string>#4BE569</string>
             </dict>
         </dict>
         <dict>
@@ -584,18 +586,33 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#546481</string>
+                <string>#65AAfe</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>Markdown bold/italic</string>
+            <string>Markdown bold</string>
             <key>scope</key>
-            <string>markup.bold.markdown, markup.italic.markdown</string>
+            <string>markup.bold.markdown</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#65AAfe</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown italic</string>
+            <key>scope</key>
+            <string>markup.italic.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#65AAfe</string>
+                <key>fontStyle</key>
+                <string>italic</string>
             </dict>
         </dict>
         <dict>
@@ -606,20 +623,33 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#87A8C6</string>
+                <string>#7DB4FC</string>
+            </dict>
+        </dict>
+        <!-- Arcdown Requirements-->
+        <dict>
+            <key>name</key>
+            <string>Arcdown Requirement</string>
+            <key>scope</key>
+            <string>entity.requirement</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9E65FF</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>Markdown Requirement</string>
+            <string>Arcdown Requirement Punctuation</string>
             <key>scope</key>
-            <string>markup.raw.requirement.markdown</string>
+            <string>
+                punctuation.requirement.colon
+                punctuation.arcdown.bracket
+            </string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#B182FF</string>
-                <key>background</key>
-                <string>#2C2C2F</string>
+                <string>#7D32FF</string>
             </dict>
         </dict>
         
@@ -678,6 +708,123 @@ Copyright (c) 2016 by Ken Young
             <dict>
                 <key>foreground</key>
                 <string>#B182FF</string>
+            </dict>
+        </dict>
+        <!-- Markup -->
+        <dict>
+            <key>name</key>
+            <string>Markup List</string>
+            <key>scope</key>
+            <string>markup.list</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#5278B6</string>
+            </dict>
+        </dict>
+
+        <!-- PlainTasks -->
+        <dict>
+            <key>name</key>
+            <string>PlainTasks - Tags</string>
+            <key>scope</key>
+            <string>text.todo meta.tag.todo</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6fc7f6</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>PlainTasks - Header</string>
+            <key>scope</key>
+            <string>text.todo keyword.control.header</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66d9ef</string>
+                <key>background</key>
+                <string>#314f5e</string>
+            </dict>
+        </dict>
+        <!-- Bracket Highlighter -->
+        <dict>
+            <key>name</key>
+            <string>Bracket Tag</string>
+            <key>scope</key>
+            <string>bracket.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffffff</string>
+                <key>background</key>
+                <string>#0fa5f5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Curly</string>
+            <key>scope</key>
+            <string>bracket.curly</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffffff</string>
+                <key>background</key>
+                <string>#0fa5f5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Round</string>
+            <key>scope</key>
+            <string>bracket.round</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffffff</string>
+                <key>background</key>
+                <string>#0fa5f5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Square</string>
+            <key>scope</key>
+            <string>bracket.square</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffffff</string>
+                <key>background</key>
+                <string>#0fa5f5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Angle</string>
+            <key>scope</key>
+            <string>bracket.angle</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffffff</string>
+                <key>background</key>
+                <string>#0fa5f5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Quote</string>
+            <key>scope</key>
+            <string>bracket.quote</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffffff</string>
+                <key>background</key>
+                <string>#0fa5f5</string>
             </dict>
         </dict>
     </array>
