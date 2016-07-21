@@ -22,11 +22,11 @@ Copyright (c) 2016 by Ken Young
                 <key>caret</key>
                 <string>#F3F6FF</string>
                 <key>foreground</key>
-                <string>#EFEFEF</string>
+                <string>#D6D6D6</string>
                 <key>invisibles</key>
                 <string>#3b3a31</string>
                 <key>lineHighlight</key>
-                <string>#282E3C</string>
+                <string>#1E3D66</string>
                 <key>selection</key>
                 <string>#404455</string>
                 <key>findHighlight</key>
@@ -34,11 +34,22 @@ Copyright (c) 2016 by Ken Young
                 <key>findHighlightForeground</key>
                 <string>#0F0F0F</string>
                 <key>activeGuide</key>
-                <string>#fe8c47</string>
+                <string>#936CFD</string>
                 <key>bracketsForeground</key>
                 <string>#7873ae</string>
                 <key>bracketContentsForeground</key>
                 <string>#B5B5B5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Support General</string>
+            <key>scope</key>
+            <string>support</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CCFF84</string>
             </dict>
         </dict>
         <dict>
@@ -49,7 +60,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#AABBFF</string>
+                <string>#89A1FF</string>
             </dict>
         </dict>
         <dict>
@@ -71,7 +82,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#AACCFF</string>
+                <string>#70A9FF</string>
             </dict>
         </dict>
         <dict>
@@ -82,7 +93,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#BBD5FC</string>
+                <string>#98C1FA</string>
             </dict>
         </dict>
         <dict>
@@ -104,7 +115,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#9BEDA7</string>
+                <string>#63D372</string>
             </dict>
         </dict>
         <dict>
@@ -115,7 +126,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#08E7D7</string>
+                <string>#48F8E9</string>
             </dict>
         </dict>
         <dict>
@@ -243,7 +254,6 @@ Copyright (c) 2016 by Ken Young
             <string>Function name</string>
             <key>scope</key>
             <string>entity.name.function, meta.function-call.c</string>
-            <!-- punctuation.definition.parameters.begin, punctuation.definition.parameters.end -->
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -506,7 +516,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#9572CE</string>
+                <string>#95FCBF</string>
             </dict>
         </dict>
         <!-- Markdown support. -->
@@ -520,7 +530,7 @@ Copyright (c) 2016 by Ken Young
                 <key>foreground</key>
                 <string>#198CFF</string>
                 <key>background</key>
-                <string>#222</string>
+                <string>#212121</string>
             </dict>
         </dict>
         <dict>
@@ -722,7 +732,17 @@ Copyright (c) 2016 by Ken Young
                 <string>#5278B6</string>
             </dict>
         </dict>
-
+        <dict>
+            <key>name</key>
+            <string>Markup General</string>
+            <key>scope</key>
+            <string>markup</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#5278B6</string>
+            </dict>
+        </dict>
         <!-- PlainTasks -->
         <dict>
             <key>name</key>
