@@ -1,0 +1,35 @@
+[ARCDOWN_FUNCTION]
+% f_key : f_value
+
+# Header 1
+
+Some general text with no formatting indicated
+
+## Header 2
+
+SYS1000 ::
+    Requirement Text here with some Mathjax $\sqrt(x^2 + y^2) = 16$
+    % tag_name[VALUE1, VALUE2]
+
+> Quoted Text can be used as a note
+
++ An unordered list
+    - a sublist
+    - second subitem
++ Second item
+
+1. An ordered list with a [link](http://google.com)
+1. Also with an image ![Alt Text](my_image.png)
+
+{{Some Highlighted Text}}
+Some {++ Added ++} Text
+Some {-- Deleted--} Text
+Some {~~ Modified -> Modified Text~~}
+{== Some other highlighted text==}{>>A comment by @ken<<}
+
+{>>A general comment by @ken<<}
+
+|table(class)
+| Header 1 | Header 2 |
+|----------|:---------|
+| Data 1   | Data 2   |

@@ -18,17 +18,17 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#252527</string>
+                <string>#DBDBDB</string>
                 <key>caret</key>
-                <string>#F3F6FF</string>
+                <string>#000000</string>
                 <key>foreground</key>
-                <string>#E5E5E5</string>
+                <string>#3D3D3D</string>
                 <key>invisibles</key>
                 <string>#3b3a31</string>
                 <key>lineHighlight</key>
                 <string>#6C7A8D</string>
                 <key>selection</key>
-                <string>#404455</string>
+                <string>#C4C7D3</string>
                 <key>findHighlight</key>
                 <string>#7FFBB9</string>
                 <key>findHighlightForeground</key>
@@ -104,7 +104,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#9595A1</string>
+                <string>#3E3E45</string>
             </dict>
         </dict>
         <dict>
@@ -292,7 +292,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#4E87E8</string>
+                <string>#1956B8</string>
             </dict>
         </dict>
         <dict>
@@ -482,7 +482,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#c8c7d5</string>
+                <string>#1D1C25</string>
             </dict>
         </dict>
         <dict>
@@ -529,8 +529,6 @@ Copyright (c) 2016 by Ken Young
             <dict>
                 <key>foreground</key>
                 <string>#198CFF</string>
-                <key>background</key>
-                <string>#252527</string>
             </dict>
         </dict>
         <dict>
@@ -563,7 +561,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#65AAfe</string>
+                <string>#014EA6</string>
             </dict>
         </dict>
         <dict>
@@ -585,7 +583,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#65AAfe</string>
+                <string>#014EA6</string>
             </dict>
         </dict>
         <dict>
@@ -657,7 +655,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#5177FF</string>
+                <string>#002CBC</string>
             </dict>
         </dict>
         <!--
@@ -681,7 +679,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#5177FF</string>
+                <string>#0F47FF</string>
             </dict>
         </dict>
         <dict>
@@ -692,7 +690,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6B8EFE</string>
+                <string>#1650FC</string>
             </dict>
         </dict>
         <dict>
@@ -703,9 +701,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#B2E0F8</string>
-                <key>background</key>
-                <string>#252527</string>
+                <string>#08415D</string>
             </dict>
         </dict>
         <dict>
@@ -716,7 +712,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#3EA8EE</string>
+                <string>#0D6195</string>
             </dict>
         </dict>
         <dict>
@@ -738,7 +734,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1EFF9D</string>
+                <string>#008446</string>
             </dict>
         </dict>
         <dict>
@@ -749,7 +745,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#00C16A</string>
+                <string>#008446</string>
             </dict>
         </dict>
         <dict>
@@ -760,7 +756,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#99FFCF</string>
+                <string>#00A854</string>
             </dict>
         </dict>
         <dict>
@@ -782,18 +778,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#69C0D2</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Arcdown Table Grid</string>
-            <key>scope</key>
-            <string>entity.table.pipe</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#ADDDE5</string>
+                <string>#3398AC</string>
             </dict>
         </dict>
         <dict>
@@ -806,7 +791,7 @@ Copyright (c) 2016 by Ken Young
                 <key>foreground</key>
                 <string>#000000</string>
                 <key>background</key>
-                <string>#93EB9E</string>
+                <string>#60E06F</string>
             </dict>
         </dict>
         <dict>
@@ -828,7 +813,7 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#8EFFC5</string>
+                <string>#007F3D</string>
                 <key>fontStyle</key>
                 <string>bold</string>
             </dict>
@@ -1014,18 +999,18 @@ Copyright (c) 2016 by Ken Young
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#7C9DD4</string>
+                <string>#5278B6</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>Markup Quote</string>
+            <string>Markup General</string>
             <key>scope</key>
-            <string>markup.quote</string>
+            <string>markup</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#A8B4C6</string>
+                <string>#5278B6</string>
             </dict>
         </dict>
         <!-- PlainTasks -->
